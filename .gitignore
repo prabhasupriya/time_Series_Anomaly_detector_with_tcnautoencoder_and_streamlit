@@ -10,9 +10,12 @@ venv/
 env/
 ENV/
 
-# Project Data and Artifact arrays (Do not push heavy local model binaries or data matrices to GitHub)
+# Project Data and Artifact arrays (Ignore all .npy files)
+*.npy
 data/raw/
 data/processed/
+
+# Model binaries
 models/tcn_autoencoder.pth
 
 # OS specific system hidden trackers
