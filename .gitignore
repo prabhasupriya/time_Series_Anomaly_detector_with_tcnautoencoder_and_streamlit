@@ -1,0 +1,20 @@
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local Environment dependencies
+.venv/
+venv/
+env/
+ENV/
+
+# Project Data and Artifact arrays (Do not push heavy local model binaries or data matrices to GitHub)
+data/raw/
+data/processed/
+models/tcn_autoencoder.pth
+
+# OS specific system hidden trackers
+.DS_Store
+Thumbs.db
